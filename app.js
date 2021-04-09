@@ -11,7 +11,7 @@ document.addEventListener('keyup',()=>{
     for(i=0;i<str.length;i++)
     {
         console.log(i);
-        if(str[i]==' ')
+        if(str[i]==' ' && i<n-1)
         {
             space++;
             if(i<n-1)
@@ -39,10 +39,24 @@ document.addEventListener('keyup',()=>{
         }
     }
     chars.innerText=char;
-words.innerText=space+1;
+    if(char>0)
+    {
+        words.innerText=space+1;
+    }
+    else{
+        words.innerText=0;
+    }
+
 if(dot==0)
 {
-    sents.innerText=1;
+    if(char>0)
+    {
+        sents.innerText=1;
+    }
+    else{
+        sents.innerText=0;
+    }
+    
 }
 else{
     sents.innerText=dot;
