@@ -13,17 +13,9 @@ document.addEventListener('keyup',()=>{
        
         if(str[i]==' ')
         {
-            if(i<n-1)
+            if(i>0&&str[i-1]!=" ")
             {
                 space++;
-            }
-            
-            if(i<n-1)
-            {
-                while(str[i+1]==' ')
-                {
-                    i++;
-                }
             }
             
         }
@@ -45,7 +37,14 @@ document.addEventListener('keyup',()=>{
     chars.innerText=char;
     if(char>0)
     {
-        words.innerText=space+1;
+        if(str[n-1]==' ')
+        {
+            words.innerText=space;
+        }
+        else{
+            words.innerText=space+1;
+        }
+        
     }
     else{
         words.innerText=0;
