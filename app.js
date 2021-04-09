@@ -11,9 +11,13 @@ document.addEventListener('keyup',()=>{
     for(i=0;i<str.length;i++)
     {
        
-        if(str[i]==' '&&i<n-1)
+        if(str[i]==' ')
         {
-            space++;
+            if(i<n-1)
+            {
+                space++;
+            }
+            
             if(i<n-1)
             {
                 while(str[i+1]==' ')
