@@ -1,9 +1,7 @@
 body{
     background-color: lightblue;
 }
-.display-1{
-    margin-bottom: 2em;
-}
+
 #sub{
     font-size: 1.5em;
     margin-bottom: 1.5em;
@@ -13,7 +11,4 @@ body{
 }
 #floatingTextarea2{
     font-size: 1.5em;
-}
-#ffffffffffffffff{
-
 }
