@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+}
+.display-1{
+    margin-bottom: 2em;
+}
+#sub{
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+.col-sm{
+    border: 2px solid black
+}
+#floatingTextarea2{
+    font-size: 1.5em;
+}
