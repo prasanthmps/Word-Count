@@ -34,7 +34,7 @@ document.addEventListener('keyup',()=>{
             char++;
         }
     }
-    chars.innerText=char;
+    chars.innerText=n;
     if(char>0)
     {
         if(str[n-1]==' ')
