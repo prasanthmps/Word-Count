@@ -12,6 +12,7 @@ document.addEventListener('keyup',()=>{
     {
         console.log(i);
         if(str[i]==' ' && i<n-1)
+        if(str[i]==' ')
         {
             space++;
             if(i<n-1)
