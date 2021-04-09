@@ -10,7 +10,6 @@ document.addEventListener('keyup',()=>{
     let dot=0;
     for(i=0;i<str.length;i++)
     {
-        console.log(i);
         if(str[i]==' ')
         {
             space++;
